@@ -1,0 +1,25 @@
+Generated PNG figures will be saved here after running the R scripts.
+
+Expected output files:
+
+HOLO:
+  holo_plot1_convergence.png
+  holo_plot2_umatrix.png
+  holo_plot3_population.png
+  holo_plot4_transition_network.png
+  holo_plot5_9states_network.png
+  holo_9states_barchart.png
+
+APO:
+  apo_plot1_convergence.png
+  apo_plot2_umatrix.png
+  apo_plot3_population.png
+  apo_plot4_transition_network.png
+  apo_plot5_9states_network.png
+  apo_plot6_9states_barchart.png
+
+COMPARISON:
+  comparison_convergence.png
+  comparison_population_maps.png
+  comparison_umatrix.png
+  comparison_networks.png

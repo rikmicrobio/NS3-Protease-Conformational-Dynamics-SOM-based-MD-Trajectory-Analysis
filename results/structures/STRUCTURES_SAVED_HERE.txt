@@ -1,0 +1,32 @@
+Representative PDB structures and CSV files will be saved here.
+
+Expected output files:
+
+HOLO states:
+  holo_state_Red_1.pdb      — Most frequent conformation
+  holo_state_Red_2.pdb
+  holo_state_Red_3.pdb
+  holo_state_Yellow_1.pdb   — Intermediate conformation
+  holo_state_Yellow_2.pdb
+  holo_state_Yellow_3.pdb
+  holo_state_Blue_1.pdb     — Rare/transient conformation
+  holo_state_Blue_2.pdb
+  holo_state_Blue_3.pdb
+  holo_representative_frames.csv
+
+APO states:
+  apo_state_Red_1.pdb
+  apo_state_Red_2.pdb
+  apo_state_Red_3.pdb
+  apo_state_Yellow_1.pdb
+  apo_state_Yellow_2.pdb
+  apo_state_Yellow_3.pdb
+  apo_state_Blue_1.pdb
+  apo_state_Blue_2.pdb
+  apo_state_Blue_3.pdb
+
+Load in PyMOL for structural comparison:
+  load holo_state_Red_1.pdb
+  load apo_state_Red_1.pdb
+  align apo_state_Red_1, holo_state_Red_1
+  show cartoon
