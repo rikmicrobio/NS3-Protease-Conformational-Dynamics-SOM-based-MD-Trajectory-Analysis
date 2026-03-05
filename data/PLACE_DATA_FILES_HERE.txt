@@ -1,0 +1,14 @@
+Place your GROMACS input files here:
+
+  md_100.gro          — HOLO equilibrated structure
+  md_100_center.xtc   — HOLO trajectory (centred, PBC corrected)
+  md_100.tpr          — APO GROMACS run input file
+  traj_0_80ns.xtc     — APO trajectory
+
+These files are excluded from git tracking (.gitignore) due to size.
+
+After running gmx trjconv (see README.md Step 0), the following
+files will also be placed here:
+
+  holo_ca.pdb         — HOLO Cα-only multi-model PDB (generated)
+  apo_ca.pdb          — APO  Cα-only multi-model PDB (generated)
