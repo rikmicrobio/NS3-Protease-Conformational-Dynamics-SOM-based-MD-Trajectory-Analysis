@@ -1,4 +1,4 @@
-# NS3 Protease Conformational Dynamics — SOM-based MD Trajectory Analysis
+# Conformational Dynamics — SOM-based MD Trajectory Analysis
 
 [![R](https://img.shields.io/badge/R-%3E%3D4.0-blue?logo=r)](https://www.r-project.org/)
 [![SOMMD](https://img.shields.io/badge/SOMMD-CRAN-brightgreen)](https://cran.r-project.org/web/packages/SOMMD/index.html)
